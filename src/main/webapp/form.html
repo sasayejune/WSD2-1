@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>Form Test</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="content-wrapper">
+
+<h2 class="heading">Form Test (HTML → JSP)</h2>
+
+<form action="form_ok.jsp" method="post">
+
+    <p>Name</p>
+    <input type="text" name="name" required>
+
+    <p>Age</p>
+    <input type="number" name="age" required>
+
+    <p>Email</p>
+    <input type="text" name="email" required>
+
+    <p>Favorite Color</p>
+    <input type="text" name="color" required>
+
+    <p>Comment</p>
+    <textarea name="comment" rows="5" required></textarea>
+
+    <input type="submit" value="Submit">
+</form>
+
+</body>
+</html>
