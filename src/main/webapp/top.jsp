@@ -1,16 +1,23 @@
-<%--
-  Created by IntelliJ IDEA.
-  User: yejun
-  Date: 25. 11. 14.
-  Time: 오전 10:28
-  To change this template use File | Settings | File Templates.
---%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
-<html>
+<!DOCTYPE html>
+<html lang="ko">
 <head>
-    <title>Title</title>
+    <meta charset="UTF-8">
+    <title>My Board</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
 
-</body>
-</html>
+<div class="navbar">
+    <div class="nav-left">😊</div>
+    <div class="nav-right">
+        <a href="list.jsp">Home</a>
+        <a href="write.jsp">New</a>
+        <a href="#">Mac</a>
+        <a href="#">iPad</a>
+        <a href="#">iPhone</a>
+    </div>
+</div>
+
+<div class="content-wrapper">

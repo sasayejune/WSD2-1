@@ -1,16 +1,11 @@
-<%--
-  Created by IntelliJ IDEA.
-  User: yejun
-  Date: 25. 11. 14.
-  Time: 오전 10:27
-  To change this template use File | Settings | File Templates.
---%>
-<%@ page contentType="text/html;charset=UTF-8" language="java" %>
-<html>
-<head>
-    <title>Title</title>
-</head>
-<body>
+</div> <!-- content-wrapper END -->
+
+<div class="footer">
+    © 2024 MyBoard, Inc
+    | <a href="#">Privacy</a>
+    | <a href="#">FAQs</a>
+    | <a href="#">About</a>
+</div>
 
 </body>
 </html>
