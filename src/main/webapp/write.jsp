@@ -1,16 +1,26 @@
-<%--
-  Created by IntelliJ IDEA.
-  User: yejun
-  Date: 25. 11. 14.
-  Time: 오전 10:28
-  To change this template use File | Settings | File Templates.
---%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
-<html>
-<head>
-    <title>Title</title>
-</head>
-<body>
+<%@ include file="top.jsp" %>
 
-</body>
-</html>
+<div class="heading">Create New Post</div>
+
+<form action="write_ok.jsp" method="POST">
+
+    <p>Title</p>
+    <input type="text" name="title" required>
+
+    <p>Writer</p>
+    <input type="text" name="writer" required>
+
+    <p>Content</p>
+    <textarea name="content" rows="6" required></textarea>
+
+    <p>Hit</p>
+    <input type="number" name="hit" value="0" required>
+
+    <p>Date</p>
+    <input type="date" name="created_date" required>
+
+    <input type="submit" value="Submit">
+</form>
+
+<%@ include file="bottom.jsp" %>
